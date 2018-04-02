@@ -176,7 +176,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #313f47;
-		line-height: 1.5;
+		line-height: 1.25;
 		/* margin: 0 0 0.75em 0; */
 	}
 
@@ -214,7 +214,7 @@
 	@media screen and (max-width: 480px) {
 
 		h1 {
-			font-size: 1.8em;
+			font-size: 1.6em;
 		}
 		
 		h2 {
@@ -722,7 +722,7 @@
 		#main .avatar {
 			position: relative;
 			display: block;
-			margin-bottom: 0.8em;
+			margin-bottom: 0.6em;
 		}
 
 			#main .avatar img {
@@ -740,7 +740,7 @@
 			#main {
 				min-width: 0;
 				width: 100%;
-				padding: 2.3em 2em 1.6em 2em ;
+				padding: 2em 2em 1.6em 1.5em ;
 			}
 
 
@@ -762,7 +762,7 @@
 		-ms-align-self: -ms-flex-end;
 		align-self: flex-end;
 		width: 100%;
-		padding: 1.5em 0 0 0;
+		padding: 1em 0 0 0;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		text-align: center;
