@@ -2,7 +2,7 @@ function toMB(nbsize){
 	return nbsize/1000000;
 }
 function FilterArr(FArray,limit){
-	var FilteredArray = FArray.filter(ArrEl=>ArrEl>limit);
+	var FilteredArray = FArray.filter(function ovlmt(ArrEl){return ArrEl>limit;});
 	return FilteredArray.length
 }
 function call(data){
