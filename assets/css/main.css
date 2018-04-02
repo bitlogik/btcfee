@@ -118,7 +118,7 @@
 	body, input, select, textarea {
 		color: #414f57;
 		font-family: Helvetica, sans-serif;
-		font-size: 14pt;
+		font-size: 16pt;
 		font-weight: 300;
 		line-height: 2;
 		letter-spacing: 0.08em;
@@ -127,7 +127,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -135,7 +135,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 12pt;
 				line-height: 1.75;
 			}
 
@@ -700,7 +700,7 @@
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		padding: 3.8em 3em 2.5em 3em ;
+		padding: 3.5em 3em 2.5em 3em ;
 		background: rgba(255,255,255,0.8);
 		border-radius: 18px;
 		cursor: default;
@@ -740,7 +740,7 @@
 			#main {
 				min-width: 0;
 				width: 100%;
-				padding: 2.8em 2em 1.8em 2em ;
+				padding: 2.3em 2em 1.6em 2em ;
 			}
 
 
