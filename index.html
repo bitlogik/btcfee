@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Bitcoin Fees</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Bitcoin Fee Estimator">
+		<meta name="keywords" content="Bitcoin, BTC, bitcoin, fee, fees, blockchain, transactions, crypto-currency">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<script src="assets/js/script.js"></script>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/btc.png" alt="" /></span>
+							<h1>Bitcoin Fee Estimator</h1>
+							<h2>Fast (~next block)</h2>
+							<div id="fastfee"></div>
+							<h2>Medium (~1h)</h2>
+							<div id="mdfee"></div>
+							<h2>Slow (~6h)</h2>
+							<div id="slowfee"></div>
+							<button id="clk" title="Soon !">API</button>
+							<a href="https://github.com/BitLogiK/mempool#fee-algorithm" target="_blank"><button id="clk">About</button></a>
+						</header>
+					</section>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li title="contact@btc-fee.net"><a href="mailto:contact@btc-fee.net" target="_blank">&#64;</a></li
+							><li title="Twitter"><a href="https://twitter.com/btcfee" target="_blank"><span class="fa fa-twitter"></span></a></li
+							><li title="Github Source"><a href="https://github.com/BitLogiK/btcfee" target="_blank"><span class="fa fa-github"></span></a></li
+							>
+						</ul>
+					</footer>
+			</div>
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+	</body>
+</html>
