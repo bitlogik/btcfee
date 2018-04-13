@@ -13,6 +13,7 @@ function call(data){
 	var feeArrSlow = FilterArr(TxSizeArray,10); // Slow: 10, Fast: 1, Norm: 4
 	var feeArrMed = FilterArr(TxSizeArray,4);
 	var feeArrFast = FilterArr(TxSizeArray,1);
+	if (feeArrFast === 0) feeArrFast = 1;
 	feeSlow = ranges[feeArrSlow];
 	feeMed = ranges[feeArrMed];
 	feeFast = ranges[feeArrFast];
